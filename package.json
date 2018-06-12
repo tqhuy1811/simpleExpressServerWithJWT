@@ -1,0 +1,25 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "Simple Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Tran",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-paginate": "^1.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.1.5"
+  },
+  "packageDescription":{
+    "bodyParser":"Parse incoming request bodies in a middleware before handlers",
+    "express":"micro framework based on Nodejs",
+    "expressPaginate":"Offset and Pagination",
+    "jsonwebtoken":"OAUTH2.0",
+    "mongoose":"a library for managing mongoDB"
+  }
+}
